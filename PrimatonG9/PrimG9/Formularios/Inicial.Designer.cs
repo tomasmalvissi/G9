@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
             this.lblInicio = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
@@ -66,7 +67,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::PrimG9.Properties.Resources.a_gif;
-            this.pictureBox1.Location = new System.Drawing.Point(644, 348);
+            this.pictureBox1.Location = new System.Drawing.Point(590, 288);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(284, 284);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -91,7 +92,7 @@
             this.lbsSalir.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbsSalir.ForeColor = System.Drawing.Color.Black;
             this.lbsSalir.Image = global::PrimG9.Properties.Resources.a_gif;
-            this.lbsSalir.Location = new System.Drawing.Point(760, 478);
+            this.lbsSalir.Location = new System.Drawing.Point(706, 418);
             this.lbsSalir.Name = "lbsSalir";
             this.lbsSalir.Size = new System.Drawing.Size(53, 24);
             this.lbsSalir.TabIndex = 4;
@@ -103,14 +104,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(954, 549);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(847, 495);
             this.Controls.Add(this.lbsSalir);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblInicio);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

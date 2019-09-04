@@ -16,5 +16,21 @@ namespace PrimG9
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            //pictureBox1.Image = Image.FromFile(@"C:\Users\Gastón\Desktop\Facu\Primaton\a.gif");
+            //pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+        }
+
+        private void LblInicio_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void LbsSalir_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

@@ -48,7 +48,6 @@
   <ItemGroup>
     <Compile Include="Clases\CarrerasCBA.cs" />
     <Compile Include="Clases\Preguntas.cs" />
-    <Compile Include="Clases\Respuestas.cs" />
     <Compile Include="Formularios\Inicial.cs">
       <SubType>Form</SubType>
     </Compile>

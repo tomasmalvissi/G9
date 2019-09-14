@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PrimG9.Clases
 {
-    class CarrerasCBA
+    public class CarrerasCBA
     {
     }
 }

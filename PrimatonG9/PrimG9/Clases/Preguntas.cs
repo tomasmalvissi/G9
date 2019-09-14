@@ -8,17 +8,18 @@ namespace PrimG9.Clases
 {
     public class Preguntas
     {
+        #region PROPIEDADES
         /// <summary>
         /// declaracion de arreglos, cada uno con su 
         /// pregunta(pos 0) y sus 4 respuestas
         /// </summary>
-        string[,] preg1 = new string[,] {{ "Si te concedieran un deseo relacionado al conocimiento, ¿Qué pedirías?"},
+        string[,] preg1 = new string[,] {{"Si te concedieran un deseo relacionado al conocimiento, ¿Qué pedirías?"},
                                           {"Entender por que el ser humano es tan complejo"},
                                           {"Saber las leyes abstractas que rigen al universo"},
                                           {"Inventar las mejores tecnologías del futuro"},
                                           {"Ver todas las cosas hermosas del mundo"}};
 
-        string[,] preg2 = new string[,] {{ "Cuando estudias, ¿Qué estrategias usas?"},
+        string[,] preg2 = new string[,] {{"Cuando estudias, ¿Qué estrategias usas?"},
                                           {"Subrayo las ideas principales"},
                                           {"Anoto las palabras claves"},
                                           {"Hago un esquema"},
@@ -66,6 +67,6 @@ namespace PrimG9.Clases
                                          {"Invento soluciones que a otros no se les ocurren"},
                                          {"Siento que veo detalles que otros no ven"}};
 
-        
+        #endregion
     }
 }

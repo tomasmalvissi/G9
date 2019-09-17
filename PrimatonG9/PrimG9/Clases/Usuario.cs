@@ -9,8 +9,8 @@ namespace PrimG9.Clases
     public class Usuario
     {
         #region PROPIEDADES
-        string[] nombre = new string[1];
-        int proxNom;
+        private string[] nombre = new string[1];
+        private int proxNom;
         #endregion
 
         #region METODOS

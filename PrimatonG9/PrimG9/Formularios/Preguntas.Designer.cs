@@ -112,6 +112,7 @@
             this.Controls.Add(this.rbA);
             this.Name = "Preguntas";
             this.Text = "Preguntas";
+            this.Load += new System.EventHandler(this.Preguntas_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

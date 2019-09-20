@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace PrimG9.Clases
 {
-    public class Preguntas
+    public class ClasePreguntas
     {
         #region PROPIEDADES
         /// <summary>
         /// declaracion de arreglos, cada uno con su 
         /// pregunta(pos 0) y sus 4 respuestas
         /// </summary>
-        string[,] preg1 = new string[,] {{"Si te concedieran un deseo relacionado al conocimiento, ¿Qué pedirías?"},
+        public string[,] preg1 = new string[,] {{"Si te concedieran un deseo relacionado al conocimiento, ¿Qué pedirías?"},
                                           {"Entender por que el ser humano es tan complejo"},
                                           {"Saber las leyes abstractas que rigen al universo"},
                                           {"Inventar las mejores tecnologías del futuro"},
@@ -68,5 +68,6 @@ namespace PrimG9.Clases
                                          {"Siento que veo detalles que otros no ven"}};
 
         #endregion
+
     }
 }

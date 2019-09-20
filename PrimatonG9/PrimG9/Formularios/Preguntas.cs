@@ -16,5 +16,10 @@ namespace PrimG9.Formularios
         {
             InitializeComponent();
         }
+
+        private void BtnSig_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }

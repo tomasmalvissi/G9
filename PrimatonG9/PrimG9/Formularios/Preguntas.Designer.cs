@@ -97,6 +97,7 @@
             this.btnSig.TabIndex = 5;
             this.btnSig.Text = "button1";
             this.btnSig.UseVisualStyleBackColor = true;
+            this.btnSig.Click += new System.EventHandler(this.BtnSig_Click);
             // 
             // Preguntas
             // 

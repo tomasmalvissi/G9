@@ -111,6 +111,12 @@ namespace PrimG9.Formularios
             {
                 D++;
             }
+            if (preguntaActual>=9)
+            {
+                this.Hide();
+                Resultado resu = new Resultado();
+                resu.Show();
+            }
         }
         private void Compare()
         {

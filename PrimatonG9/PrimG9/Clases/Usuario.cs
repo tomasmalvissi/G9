@@ -28,6 +28,27 @@ namespace PrimG9.Clases
             }
             return Destino;
         }
+        public bool Agregar(string name)
+        {
+            bool Resp = false;
+            try
+            {
+                if (proxNom == nombre.Length)
+                {
+                    this.ArregloInfinito(1);
+                }
+
+                nombre[proxNom] = name;
+                proxNom++;
+                Resp = true;
+            }
+            catch (Exception err)
+            {
+                throw err;
+            }
+
+            return Resp;
+        }
         #endregion
     }
 }

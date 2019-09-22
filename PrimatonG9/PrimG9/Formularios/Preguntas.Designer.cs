@@ -39,7 +39,7 @@
             // rbA
             // 
             this.rbA.AutoSize = true;
-            this.rbA.Location = new System.Drawing.Point(335, 149);
+            this.rbA.Location = new System.Drawing.Point(241, 151);
             this.rbA.Name = "rbA";
             this.rbA.Size = new System.Drawing.Size(85, 17);
             this.rbA.TabIndex = 0;
@@ -50,7 +50,7 @@
             // rbB
             // 
             this.rbB.AutoSize = true;
-            this.rbB.Location = new System.Drawing.Point(335, 198);
+            this.rbB.Location = new System.Drawing.Point(241, 200);
             this.rbB.Name = "rbB";
             this.rbB.Size = new System.Drawing.Size(85, 17);
             this.rbB.TabIndex = 1;
@@ -61,7 +61,7 @@
             // rbC
             // 
             this.rbC.AutoSize = true;
-            this.rbC.Location = new System.Drawing.Point(335, 246);
+            this.rbC.Location = new System.Drawing.Point(241, 248);
             this.rbC.Name = "rbC";
             this.rbC.Size = new System.Drawing.Size(85, 17);
             this.rbC.TabIndex = 2;
@@ -72,7 +72,7 @@
             // rbD
             // 
             this.rbD.AutoSize = true;
-            this.rbD.Location = new System.Drawing.Point(335, 284);
+            this.rbD.Location = new System.Drawing.Point(241, 286);
             this.rbD.Name = "rbD";
             this.rbD.Size = new System.Drawing.Size(85, 17);
             this.rbD.TabIndex = 3;
@@ -83,7 +83,7 @@
             // lblPreg
             // 
             this.lblPreg.AutoSize = true;
-            this.lblPreg.Location = new System.Drawing.Point(316, 45);
+            this.lblPreg.Location = new System.Drawing.Point(222, 47);
             this.lblPreg.Name = "lblPreg";
             this.lblPreg.Size = new System.Drawing.Size(35, 13);
             this.lblPreg.TabIndex = 4;
@@ -91,11 +91,11 @@
             // 
             // btnSig
             // 
-            this.btnSig.Location = new System.Drawing.Point(562, 364);
+            this.btnSig.Location = new System.Drawing.Point(468, 366);
             this.btnSig.Name = "btnSig";
             this.btnSig.Size = new System.Drawing.Size(75, 23);
             this.btnSig.TabIndex = 5;
-            this.btnSig.Text = "button1";
+            this.btnSig.Text = "Siguiente";
             this.btnSig.UseVisualStyleBackColor = true;
             this.btnSig.Click += new System.EventHandler(this.BtnSig_Click);
             // 

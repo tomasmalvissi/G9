@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PrimG9.Formularios;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -25,7 +26,9 @@ namespace PrimG9
 
         private void LblInicio_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Introduccion intr = new Introduccion();
+            intr.Show();
         }
 
         private void LbsSalir_Click(object sender, EventArgs e)

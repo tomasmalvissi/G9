@@ -105,6 +105,7 @@
             this.Name = "Resultado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resultado";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Resultado_FormClosing);
             this.Load += new System.EventHandler(this.Resultado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

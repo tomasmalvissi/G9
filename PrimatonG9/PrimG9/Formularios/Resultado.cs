@@ -28,7 +28,7 @@ namespace PrimG9.Formularios
         private void Resultado_Load(object sender, EventArgs e)
         {
             ccba = new CarrerasCBA();
-            lblNombre.Text = user.MostrarLista();
+            lblNombre.Text = "Felicitaciones " + user.MostrarLista() + " tu resultado indica que eres";
             switch (resp)
             {
                 case 1:
@@ -53,6 +53,12 @@ namespace PrimG9.Formularios
                     break;
             }
         }
+
         #endregion
+
+        private void Resultado_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

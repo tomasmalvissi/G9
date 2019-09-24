@@ -57,7 +57,7 @@ namespace PrimG9.Clases
                 Lista = nombre[0];
                 for (int i = 1; i < proxNom; i++)
                 {
-                    Lista = "Felicitaciones " + nombre[nombre.Length - 1]+ " eres...";
+                    Lista = nombre[nombre.Length - 1];
                 }
             }
             return Lista;

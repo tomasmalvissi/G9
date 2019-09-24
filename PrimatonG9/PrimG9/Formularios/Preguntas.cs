@@ -119,11 +119,13 @@ namespace PrimG9.Formularios
             }
             if (preguntaActual>=9)
             {
-                this.Hide();
-                Resultado resu = new Resultado();
-                resu.Show();
+                MostrarResultado();
             }
 
+           
+        }
+        private void MostrarResultado()
+        {
             if (A > B && A > C && A > D)
             {
                 Resp = 1;
@@ -140,6 +142,9 @@ namespace PrimG9.Formularios
             {
                 Resp = 4;
             }
+            this.Hide();
+            Resultado resu = new Resultado(Resp);
+            resu.Show();
         }
         #endregion
     }

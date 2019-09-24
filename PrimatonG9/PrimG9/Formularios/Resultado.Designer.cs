@@ -36,7 +36,7 @@
             // lblRes
             // 
             this.lblRes.AutoSize = true;
-            this.lblRes.Location = new System.Drawing.Point(328, 84);
+            this.lblRes.Location = new System.Drawing.Point(95, 34);
             this.lblRes.Name = "lblRes";
             this.lblRes.Size = new System.Drawing.Size(35, 13);
             this.lblRes.TabIndex = 0;
@@ -45,7 +45,7 @@
             // lblCarr
             // 
             this.lblCarr.AutoSize = true;
-            this.lblCarr.Location = new System.Drawing.Point(328, 250);
+            this.lblCarr.Location = new System.Drawing.Point(69, 297);
             this.lblCarr.Name = "lblCarr";
             this.lblCarr.Size = new System.Drawing.Size(35, 13);
             this.lblCarr.TabIndex = 1;
@@ -54,7 +54,7 @@
             // lblCommon
             // 
             this.lblCommon.AutoSize = true;
-            this.lblCommon.Location = new System.Drawing.Point(248, 250);
+            this.lblCommon.Location = new System.Drawing.Point(69, 250);
             this.lblCommon.Name = "lblCommon";
             this.lblCommon.Size = new System.Drawing.Size(35, 13);
             this.lblCommon.TabIndex = 2;
@@ -68,6 +68,7 @@
             this.Controls.Add(this.lblCommon);
             this.Controls.Add(this.lblCarr);
             this.Controls.Add(this.lblRes);
+            this.MaximizeBox = false;
             this.Name = "Resultado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resultado";

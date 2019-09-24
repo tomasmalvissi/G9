@@ -110,6 +110,7 @@
             this.Controls.Add(this.rbC);
             this.Controls.Add(this.rbB);
             this.Controls.Add(this.rbA);
+            this.MaximizeBox = false;
             this.Name = "Preguntas";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Preguntas";

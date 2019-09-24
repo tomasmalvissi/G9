@@ -13,19 +13,25 @@ namespace PrimG9.Formularios
 {
     public partial class Preguntas : Form
     {
+        #region PROPIEDADES
         ClasePreguntas cp;
+        CarrerasCBA ccba;
         int preguntaActual;
         private int A;
         private int B;
         private int C;
         private int D;
+        public int Resp;
+        #endregion
         public Preguntas()
         {
             InitializeComponent();
         }
+        #region METODOS
         private void Preguntas_Load(object sender, EventArgs e)
         {
             cp = new ClasePreguntas();
+            ccba = new CarrerasCBA();
             lblPreg.Text = cp.pregunta1[0];
             rbA.Text = cp.pregunta1[1];
             rbB.Text = cp.pregunta1[2];
@@ -117,25 +123,24 @@ namespace PrimG9.Formularios
                 Resultado resu = new Resultado();
                 resu.Show();
             }
-        }
-        private void Compare()
-        {
+
             if (A > B && A > C && A > D)
             {
-
+                Resp = 1;
             }
             else if (B > A && B > C && B > D)
             {
-
+                Resp = 2;
             }
             else if (C > A && C > B && C > D)
             {
-
+                Resp = 3;
             }
             else if (D > A && D > C && D > B)
             {
-
+                Resp = 4;
             }
         }
+        #endregion
     }
 }

@@ -28,12 +28,59 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.lblRes = new System.Windows.Forms.Label();
+            this.lblCarr = new System.Windows.Forms.Label();
+            this.lblCommon = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // lblRes
+            // 
+            this.lblRes.AutoSize = true;
+            this.lblRes.Location = new System.Drawing.Point(328, 84);
+            this.lblRes.Name = "lblRes";
+            this.lblRes.Size = new System.Drawing.Size(35, 13);
+            this.lblRes.TabIndex = 0;
+            this.lblRes.Text = "label1";
+            // 
+            // lblCarr
+            // 
+            this.lblCarr.AutoSize = true;
+            this.lblCarr.Location = new System.Drawing.Point(328, 250);
+            this.lblCarr.Name = "lblCarr";
+            this.lblCarr.Size = new System.Drawing.Size(35, 13);
+            this.lblCarr.TabIndex = 1;
+            this.lblCarr.Text = "label1";
+            // 
+            // lblCommon
+            // 
+            this.lblCommon.AutoSize = true;
+            this.lblCommon.Location = new System.Drawing.Point(248, 250);
+            this.lblCommon.Name = "lblCommon";
+            this.lblCommon.Size = new System.Drawing.Size(35, 13);
+            this.lblCommon.TabIndex = 2;
+            this.lblCommon.Text = "label1";
+            // 
+            // Resultado
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblCommon);
+            this.Controls.Add(this.lblCarr);
+            this.Controls.Add(this.lblRes);
+            this.Name = "Resultado";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Resultado";
+            this.Load += new System.EventHandler(this.Resultado_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Label lblRes;
+        private System.Windows.Forms.Label lblCarr;
+        private System.Windows.Forms.Label lblCommon;
     }
 }

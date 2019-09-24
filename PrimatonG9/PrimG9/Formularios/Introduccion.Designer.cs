@@ -79,6 +79,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtUser);
             this.Name = "Introduccion";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Introduccion";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Preguntas));
             this.rbA = new System.Windows.Forms.RadioButton();
             this.rbB = new System.Windows.Forms.RadioButton();
             this.rbC = new System.Windows.Forms.RadioButton();
@@ -39,71 +40,90 @@
             // rbA
             // 
             this.rbA.AutoSize = true;
-            this.rbA.Location = new System.Drawing.Point(241, 151);
+            this.rbA.BackColor = System.Drawing.Color.Transparent;
+            this.rbA.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbA.ForeColor = System.Drawing.Color.Black;
+            this.rbA.Location = new System.Drawing.Point(268, 170);
             this.rbA.Name = "rbA";
-            this.rbA.Size = new System.Drawing.Size(85, 17);
+            this.rbA.Size = new System.Drawing.Size(99, 20);
             this.rbA.TabIndex = 0;
             this.rbA.TabStop = true;
             this.rbA.Text = "radioButton1";
-            this.rbA.UseVisualStyleBackColor = true;
+            this.rbA.UseVisualStyleBackColor = false;
             // 
             // rbB
             // 
             this.rbB.AutoSize = true;
-            this.rbB.Location = new System.Drawing.Point(241, 200);
+            this.rbB.BackColor = System.Drawing.Color.Transparent;
+            this.rbB.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbB.ForeColor = System.Drawing.Color.Black;
+            this.rbB.Location = new System.Drawing.Point(268, 207);
             this.rbB.Name = "rbB";
-            this.rbB.Size = new System.Drawing.Size(85, 17);
+            this.rbB.Size = new System.Drawing.Size(99, 20);
             this.rbB.TabIndex = 1;
             this.rbB.TabStop = true;
             this.rbB.Text = "radioButton2";
-            this.rbB.UseVisualStyleBackColor = true;
+            this.rbB.UseVisualStyleBackColor = false;
             // 
             // rbC
             // 
             this.rbC.AutoSize = true;
-            this.rbC.Location = new System.Drawing.Point(241, 248);
+            this.rbC.BackColor = System.Drawing.Color.Transparent;
+            this.rbC.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbC.ForeColor = System.Drawing.Color.Black;
+            this.rbC.Location = new System.Drawing.Point(268, 243);
             this.rbC.Name = "rbC";
-            this.rbC.Size = new System.Drawing.Size(85, 17);
+            this.rbC.Size = new System.Drawing.Size(99, 20);
             this.rbC.TabIndex = 2;
             this.rbC.TabStop = true;
             this.rbC.Text = "radioButton3";
-            this.rbC.UseVisualStyleBackColor = true;
+            this.rbC.UseVisualStyleBackColor = false;
             // 
             // rbD
             // 
             this.rbD.AutoSize = true;
-            this.rbD.Location = new System.Drawing.Point(241, 286);
+            this.rbD.BackColor = System.Drawing.Color.Transparent;
+            this.rbD.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rbD.ForeColor = System.Drawing.Color.Black;
+            this.rbD.Location = new System.Drawing.Point(268, 279);
             this.rbD.Name = "rbD";
-            this.rbD.Size = new System.Drawing.Size(85, 17);
+            this.rbD.Size = new System.Drawing.Size(99, 20);
             this.rbD.TabIndex = 3;
             this.rbD.TabStop = true;
             this.rbD.Text = "radioButton4";
-            this.rbD.UseVisualStyleBackColor = true;
+            this.rbD.UseVisualStyleBackColor = false;
             // 
             // lblPreg
             // 
             this.lblPreg.AutoSize = true;
-            this.lblPreg.Location = new System.Drawing.Point(222, 47);
+            this.lblPreg.BackColor = System.Drawing.Color.Transparent;
+            this.lblPreg.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPreg.ForeColor = System.Drawing.Color.Black;
+            this.lblPreg.Location = new System.Drawing.Point(70, 39);
             this.lblPreg.Name = "lblPreg";
-            this.lblPreg.Size = new System.Drawing.Size(35, 13);
+            this.lblPreg.Size = new System.Drawing.Size(64, 23);
             this.lblPreg.TabIndex = 4;
             this.lblPreg.Text = "label1";
             // 
             // btnSig
             // 
-            this.btnSig.Location = new System.Drawing.Point(468, 366);
+            this.btnSig.BackColor = System.Drawing.Color.SkyBlue;
+            this.btnSig.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSig.ForeColor = System.Drawing.Color.Black;
+            this.btnSig.Location = new System.Drawing.Point(594, 377);
             this.btnSig.Name = "btnSig";
-            this.btnSig.Size = new System.Drawing.Size(75, 23);
+            this.btnSig.Size = new System.Drawing.Size(84, 32);
             this.btnSig.TabIndex = 5;
             this.btnSig.Text = "Siguiente";
-            this.btnSig.UseVisualStyleBackColor = true;
+            this.btnSig.UseVisualStyleBackColor = false;
             this.btnSig.Click += new System.EventHandler(this.BtnSig_Click);
             // 
             // Preguntas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(699, 433);
             this.Controls.Add(this.btnSig);
             this.Controls.Add(this.lblPreg);
             this.Controls.Add(this.rbD);

@@ -116,6 +116,11 @@
   <ItemGroup>
     <None Include="Resources\Sin-título-1.gif" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Recuadro-Salir.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Frase.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

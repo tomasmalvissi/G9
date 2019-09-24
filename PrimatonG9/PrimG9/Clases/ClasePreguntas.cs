@@ -14,7 +14,7 @@ namespace PrimG9.Clases
         /// pregunta(pos 0) y sus 4 respuestas
         /// </summary>
 
-        public string[] pregunta1 = new string[] {"Si te concedieran un deseo relacionado al conocimiento, ¿Qué pedirías?",
+        public string[] pregunta1 = new string[] {"Si te concedieran un deseo relacionado al conocimiento,\r\n ¿Qué pedirías?",
                                           "Entender por que el ser humano es tan complejo",
                                           "Saber las leyes abstractas que rigen al universo",
                                           "Inventar las mejores tecnologías del futuro",
@@ -44,7 +44,7 @@ namespace PrimG9.Clases
                                          "Resolviendo ecuaciones",
                                          "Dibujando o pintando"};
 
-        public string[] pregunta6 = new string[] { "Si te imaginas en un futuro, ¿Cuál de las siguientes acciones te gustaría que estuvieran presente en tu día a día?" ,
+        public string[] pregunta6 = new string[] { "Si te imaginas en un futuro, \r\n ¿Cuál de las siguientes acciones te gustaría que estuvieran presente \r\n en tu día a día?" ,
                                          "Escuchar a las personas para entenderlas",
                                          "Investigar la naturaleza para entenderla",
                                          "Idear nuevas formas para mejorar los procesos",

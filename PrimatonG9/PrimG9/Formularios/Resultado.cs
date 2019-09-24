@@ -29,28 +29,29 @@ namespace PrimG9.Formularios
             switch (resp)
             {
                 case 1:
-                    lblRes.Text = "eres HUMANISTA significa que eres compatible con carreras como literatura, historia, psicología, filosofía, etc.";
+                    lblRes.Text = "Eres HUMANISTA felicitaciones!! significa que eres compatible con carreras como literatura,\r\n historia, psicología, filosofía, etc.";
                     lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCarr.Text = ccba.cHumanidades[0];
                     break;
                 case 2:
-                    lblRes.Text = "eres CIENTIFICO compatible con carreras como medicina, enfermería, biología, química, etc.";
+                    lblRes.Text = "Eres CIENTIFICO felicitaciones!! compatible con carreras como medicina,\r\n enfermería, biología, química, etc.";
                     lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCarr.Text = ccba.cCiencias[0];
                     break;
                 case 3:
-                    lblRes.Text = "eres MATEMATICO significa que eres compatible con carreras como ingeniería, contabilidad, matemáticas, etc.";
+                    lblRes.Text = "Eres MATEMATICO felicitaciones!! significa que eres compatible con carreras como ingeniería,\r\n contabilidad, matemáticas, etc.";
                     lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCarr.Text = ccba.cMatematicas[0];
                     break;
                 case 4:
-                    lblRes.Text = "eres ARTISTICO significa que eres compatible con carreras como estética, artes visuales, música, diseño, etc."; lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
+                    lblRes.Text = "Eres ARTISTICO felicitaciones!! significa que eres compatible con carreras como estética,\r\n artes visuales, música, diseño, etc."; lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCarr.Text = ccba.cArte[0];
                     break;
 
-            }        
+            }
         }
         #endregion
+
     }
 }

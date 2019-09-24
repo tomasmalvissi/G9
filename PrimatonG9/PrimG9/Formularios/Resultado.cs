@@ -15,43 +15,44 @@ namespace PrimG9.Formularios
     {
         #region PROPIEDADES
         int resp = 0;
+        private readonly Usuario user;
         CarrerasCBA ccba;
         #endregion
-        public Resultado(int respuesta)
+        public Resultado(int respuesta, Usuario user)
         {
             InitializeComponent();
             resp = respuesta;
+            this.user = user;
         }
         #region METODOS
         private void Resultado_Load(object sender, EventArgs e)
         {
             ccba = new CarrerasCBA();
+            lblNombre.Text = user.MostrarLista();
             switch (resp)
             {
                 case 1:
-                    lblRes.Text = "Eres HUMANISTA felicitaciones!! significa que eres compatible con carreras como literatura,\r\n historia, psicología, filosofía, etc.";
+                    lblRes.Text = "HUMANISTA!!! significa que eres compatible con carreras como literatura,\r\n historia, psicología, filosofía, etc.";
                     lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCarr.Text = ccba.cHumanidades[0];
                     break;
                 case 2:
-                    lblRes.Text = "Eres CIENTIFICO felicitaciones!! compatible con carreras como medicina,\r\n enfermería, biología, química, etc.";
+                    lblRes.Text = "CIENTIFICO!!! compatible con carreras como medicina,\r\n enfermería, biología, química, etc.";
                     lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCarr.Text = ccba.cCiencias[0];
                     break;
                 case 3:
-                    lblRes.Text = "Eres MATEMATICO felicitaciones!! significa que eres compatible con carreras como ingeniería,\r\n contabilidad, matemáticas, etc.";
+                    lblRes.Text = "MATEMATICO!!! significa que eres compatible con carreras como ingeniería,\r\n contabilidad, matemáticas, etc.";
                     lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCarr.Text = ccba.cMatematicas[0];
                     break;
                 case 4:
-                    lblRes.Text = "Eres ARTISTICO felicitaciones!! significa que eres compatible con carreras como estética,\r\n artes visuales, música, diseño, etc."; lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
+                    lblRes.Text = "ARTISTICO!!! significa que eres compatible con carreras como estética,\r\n artes visuales, música, diseño, etc."; lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCommon.Text = "¡Estas carreras están disponibles en Córdoba segun tu resultado!";
                     lblCarr.Text = ccba.cArte[0];
                     break;
-
             }
         }
         #endregion
-
     }
 }

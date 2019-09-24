@@ -33,6 +33,7 @@
             this.lblCarr = new System.Windows.Forms.Label();
             this.lblCommon = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lblNombre = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -41,7 +42,7 @@
             this.lblRes.AutoSize = true;
             this.lblRes.BackColor = System.Drawing.Color.Transparent;
             this.lblRes.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblRes.Location = new System.Drawing.Point(95, 34);
+            this.lblRes.Location = new System.Drawing.Point(84, 85);
             this.lblRes.Name = "lblRes";
             this.lblRes.Size = new System.Drawing.Size(53, 19);
             this.lblRes.TabIndex = 0;
@@ -53,7 +54,7 @@
             this.lblCarr.BackColor = System.Drawing.Color.Transparent;
             this.lblCarr.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblCarr.ForeColor = System.Drawing.Color.Black;
-            this.lblCarr.Location = new System.Drawing.Point(196, 225);
+            this.lblCarr.Location = new System.Drawing.Point(185, 276);
             this.lblCarr.Name = "lblCarr";
             this.lblCarr.Size = new System.Drawing.Size(42, 15);
             this.lblCarr.TabIndex = 1;
@@ -64,7 +65,7 @@
             this.lblCommon.AutoSize = true;
             this.lblCommon.BackColor = System.Drawing.Color.Transparent;
             this.lblCommon.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCommon.Location = new System.Drawing.Point(80, 145);
+            this.lblCommon.Location = new System.Drawing.Point(69, 196);
             this.lblCommon.Name = "lblCommon";
             this.lblCommon.Size = new System.Drawing.Size(42, 15);
             this.lblCommon.TabIndex = 2;
@@ -80,12 +81,22 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(314, 21);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(35, 13);
+            this.lblNombre.TabIndex = 4;
+            this.lblNombre.Text = "label1";
+            // 
             // Resultado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCommon);
             this.Controls.Add(this.lblCarr);
             this.Controls.Add(this.lblRes);
@@ -107,5 +118,6 @@
         private System.Windows.Forms.Label lblCarr;
         private System.Windows.Forms.Label lblCommon;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label lblNombre;
     }
 }

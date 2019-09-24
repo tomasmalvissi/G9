@@ -13,18 +13,19 @@ namespace PrimG9.Formularios
 {
     public partial class Introduccion : Form
     {
+        Usuario user;
         public Introduccion()
         {
             InitializeComponent();
+            user = new Usuario();
         }
 
         private void BtnEmp_Click(object sender, EventArgs e)
         {
+            user.Agregar(txtUser.Text);
             this.Hide();
-            Preguntas preg = new Preguntas();
-            preg.Show();
-            //Usuario.Agregar(txtUser.Text);
-            txtUser.SelectAll();
+            Preguntas preg = new Preguntas(user);
+            preg.Show();            
         }
     }
 }

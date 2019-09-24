@@ -22,10 +22,12 @@ namespace PrimG9.Formularios
         private int C;
         private int D;
         public int Resp;
+        private readonly Usuario user;
         #endregion
-        public Preguntas()
+        public Preguntas(Usuario user)
         {
             InitializeComponent();
+            this.user = user;
         }
         #region METODOS
         private void Preguntas_Load(object sender, EventArgs e)
@@ -143,7 +145,7 @@ namespace PrimG9.Formularios
                 Resp = 4;
             }
             this.Hide();
-            Resultado resu = new Resultado(Resp);
+            Resultado resu = new Resultado(Resp, user);
             resu.Show();
         }
         #endregion

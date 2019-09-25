@@ -63,7 +63,7 @@ namespace PrimG9.Clases
                                          "No visualizo nada muy especifico"};
 
         public string[] pregunta9 = new string[] {"¿Cuál de las siguientes frases te representa más?",
-                                         "Analizo por que los ostros actúan como actúan",
+                                         "Analizo por que los otros actúan como actúan",
                                          "Pregunto sobre cosas que otros dan por obvias",
                                          "Invento soluciones que a otros no se les ocurren",
                                          "Siento que veo detalles que otros no ven"};

@@ -144,6 +144,11 @@ namespace PrimG9.Formularios
             {
                 Resp = 4;
             }
+            else if (A==B || A==C || A==D || B==C || B==D || C==D)
+            {
+                Random random = new Random();
+                Resp = random.Next(0, 5);
+            }
             this.Hide();
             Resultado resu = new Resultado(Resp, user);
             resu.Show();

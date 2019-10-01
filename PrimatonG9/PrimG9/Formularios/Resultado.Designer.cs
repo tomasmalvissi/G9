@@ -34,7 +34,10 @@
             this.lblCommon = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblNombre = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // lblRes
@@ -84,11 +87,33 @@
             // lblNombre
             // 
             this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(314, 21);
+            this.lblNombre.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNombre.Location = new System.Drawing.Point(205, 9);
             this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(35, 13);
+            this.lblNombre.Size = new System.Drawing.Size(52, 23);
             this.lblNombre.TabIndex = 4;
             this.lblNombre.Text = "label1";
+            this.lblNombre.Click += new System.EventHandler(this.lblNombre_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PrimG9.Properties.Resources.Gif_logo_3;
+            this.pictureBox2.Location = new System.Drawing.Point(-1, 335);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(122, 115);
+            this.pictureBox2.TabIndex = 5;
+            this.pictureBox2.TabStop = false;
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(710, 406);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(78, 32);
+            this.button1.TabIndex = 6;
+            this.button1.Text = "Salir";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Resultado
             // 
@@ -96,11 +121,13 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCommon);
             this.Controls.Add(this.lblCarr);
             this.Controls.Add(this.lblRes);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pictureBox2);
             this.MaximizeBox = false;
             this.Name = "Resultado";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -108,6 +135,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Resultado_FormClosing);
             this.Load += new System.EventHandler(this.Resultado_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,5 +148,7 @@
         private System.Windows.Forms.Label lblCommon;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblNombre;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button button1;
     }
 }

@@ -83,6 +83,26 @@ namespace PrimG9.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gif_logo_2 {
+            get {
+                object obj = ResourceManager.GetObject("Gif_logo_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gif_logo_3 {
+            get {
+                object obj = ResourceManager.GetObject("Gif_logo_3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Recuadro_Salir {
             get {
                 object obj = ResourceManager.GetObject("Recuadro-Salir", resourceCulture);

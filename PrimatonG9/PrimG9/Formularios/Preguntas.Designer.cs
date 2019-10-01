@@ -43,7 +43,7 @@
             this.rbA.BackColor = System.Drawing.Color.Transparent;
             this.rbA.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbA.ForeColor = System.Drawing.Color.Black;
-            this.rbA.Location = new System.Drawing.Point(268, 170);
+            this.rbA.Location = new System.Drawing.Point(288, 155);
             this.rbA.Name = "rbA";
             this.rbA.Size = new System.Drawing.Size(99, 20);
             this.rbA.TabIndex = 0;
@@ -57,7 +57,7 @@
             this.rbB.BackColor = System.Drawing.Color.Transparent;
             this.rbB.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbB.ForeColor = System.Drawing.Color.Black;
-            this.rbB.Location = new System.Drawing.Point(268, 207);
+            this.rbB.Location = new System.Drawing.Point(288, 181);
             this.rbB.Name = "rbB";
             this.rbB.Size = new System.Drawing.Size(99, 20);
             this.rbB.TabIndex = 1;
@@ -71,7 +71,7 @@
             this.rbC.BackColor = System.Drawing.Color.Transparent;
             this.rbC.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbC.ForeColor = System.Drawing.Color.Black;
-            this.rbC.Location = new System.Drawing.Point(268, 243);
+            this.rbC.Location = new System.Drawing.Point(288, 207);
             this.rbC.Name = "rbC";
             this.rbC.Size = new System.Drawing.Size(99, 20);
             this.rbC.TabIndex = 2;
@@ -85,7 +85,7 @@
             this.rbD.BackColor = System.Drawing.Color.Transparent;
             this.rbD.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbD.ForeColor = System.Drawing.Color.Black;
-            this.rbD.Location = new System.Drawing.Point(268, 279);
+            this.rbD.Location = new System.Drawing.Point(288, 233);
             this.rbD.Name = "rbD";
             this.rbD.Size = new System.Drawing.Size(99, 20);
             this.rbD.TabIndex = 3;
@@ -99,7 +99,7 @@
             this.lblPreg.BackColor = System.Drawing.Color.Transparent;
             this.lblPreg.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPreg.ForeColor = System.Drawing.Color.Black;
-            this.lblPreg.Location = new System.Drawing.Point(70, 39);
+            this.lblPreg.Location = new System.Drawing.Point(34, 21);
             this.lblPreg.Name = "lblPreg";
             this.lblPreg.Size = new System.Drawing.Size(64, 23);
             this.lblPreg.TabIndex = 4;
@@ -110,7 +110,7 @@
             this.btnSig.BackColor = System.Drawing.Color.SkyBlue;
             this.btnSig.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSig.ForeColor = System.Drawing.Color.Black;
-            this.btnSig.Location = new System.Drawing.Point(594, 377);
+            this.btnSig.Location = new System.Drawing.Point(543, 325);
             this.btnSig.Name = "btnSig";
             this.btnSig.Size = new System.Drawing.Size(84, 32);
             this.btnSig.TabIndex = 5;
@@ -123,7 +123,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(699, 433);
+            this.ClientSize = new System.Drawing.Size(655, 381);
             this.Controls.Add(this.btnSig);
             this.Controls.Add(this.lblPreg);
             this.Controls.Add(this.rbD);

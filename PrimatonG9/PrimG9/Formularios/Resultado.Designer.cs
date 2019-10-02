@@ -36,6 +36,7 @@
             this.lblNombre = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.btReiniciar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -98,7 +99,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::PrimG9.Properties.Resources.Gif_logo_3;
-            this.pictureBox2.Location = new System.Drawing.Point(-1, 335);
+            this.pictureBox2.Location = new System.Drawing.Point(1, 335);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(122, 115);
             this.pictureBox2.TabIndex = 5;
@@ -106,14 +107,27 @@
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.PaleTurquoise;
             this.button1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(710, 406);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(78, 32);
             this.button1.TabIndex = 6;
             this.button1.Text = "Salir";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btReiniciar
+            // 
+            this.btReiniciar.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.btReiniciar.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btReiniciar.Location = new System.Drawing.Point(304, 406);
+            this.btReiniciar.Name = "btReiniciar";
+            this.btReiniciar.Size = new System.Drawing.Size(87, 31);
+            this.btReiniciar.TabIndex = 7;
+            this.btReiniciar.Text = "Reiniciar";
+            this.btReiniciar.UseVisualStyleBackColor = false;
+            this.btReiniciar.Click += new System.EventHandler(this.btReiniciar_Click);
             // 
             // Resultado
             // 
@@ -121,6 +135,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btReiniciar);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lblNombre);
             this.Controls.Add(this.lblCommon);
@@ -150,5 +165,6 @@
         private System.Windows.Forms.Label lblNombre;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btReiniciar;
     }
 }

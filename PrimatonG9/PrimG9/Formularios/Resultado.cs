@@ -70,5 +70,12 @@ namespace PrimG9.Formularios
         {
             Close();
         }
+
+        private void btReiniciar_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 intr = new Form1();
+            intr.Show();
+        }
     }
 }

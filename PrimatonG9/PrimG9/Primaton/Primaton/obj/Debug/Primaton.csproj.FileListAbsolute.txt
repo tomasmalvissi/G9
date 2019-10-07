@@ -1,9 +1,0 @@
-c:\users\francisco\documents\visual studio 2015\Projects\Primaton\Primaton\bin\Debug\Primaton.exe.config
-C:\Users\Francisco\documents\visual studio 2015\Projects\Primaton\Primaton\bin\Debug\Primaton.exe
-C:\Users\Francisco\documents\visual studio 2015\Projects\Primaton\Primaton\bin\Debug\Primaton.pdb
-C:\Users\Francisco\documents\visual studio 2015\Projects\Primaton\Primaton\obj\Debug\Primaton.csprojResolveAssemblyReference.cache
-C:\Users\Francisco\documents\visual studio 2015\Projects\Primaton\Primaton\obj\Debug\Primaton.Form1.resources
-C:\Users\Francisco\documents\visual studio 2015\Projects\Primaton\Primaton\obj\Debug\Primaton.Properties.Resources.resources
-C:\Users\Francisco\documents\visual studio 2015\Projects\Primaton\Primaton\obj\Debug\Primaton.csproj.GenerateResource.Cache
-C:\Users\Francisco\documents\visual studio 2015\Projects\Primaton\Primaton\obj\Debug\Primaton.exe
-C:\Users\Francisco\documents\visual studio 2015\Projects\Primaton\Primaton\obj\Debug\Primaton.pdb

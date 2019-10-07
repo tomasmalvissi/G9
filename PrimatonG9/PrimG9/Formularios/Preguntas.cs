@@ -144,7 +144,7 @@ namespace PrimG9.Formularios
             {
                 Resp = 4;
             }
-            else if (A==B || A==C || A==D || B==C || B==D || C==D)
+            else if (A == B || A == C || A == D || B == A || B == C || B == D || C == A || C == B || C == D)
             {
                 Random random = new Random();
                 Resp = random.Next(0, 5);

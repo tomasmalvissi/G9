@@ -27,5 +27,10 @@ namespace PrimG9.Formularios
             Preguntas preg = new Preguntas(user);
             preg.Show();            
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

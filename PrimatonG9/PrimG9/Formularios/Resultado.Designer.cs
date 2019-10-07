@@ -108,7 +108,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.button1.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(710, 406);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(78, 32);
@@ -120,7 +120,7 @@
             // btReiniciar
             // 
             this.btReiniciar.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.btReiniciar.Font = new System.Drawing.Font("Comic Sans MS", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btReiniciar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btReiniciar.Location = new System.Drawing.Point(304, 406);
             this.btReiniciar.Name = "btReiniciar";
             this.btReiniciar.Size = new System.Drawing.Size(87, 31);

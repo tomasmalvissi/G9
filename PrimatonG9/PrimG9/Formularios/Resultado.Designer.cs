@@ -121,7 +121,7 @@
             // 
             this.btReiniciar.BackColor = System.Drawing.Color.PaleTurquoise;
             this.btReiniciar.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btReiniciar.Location = new System.Drawing.Point(304, 406);
+            this.btReiniciar.Location = new System.Drawing.Point(418, 406);
             this.btReiniciar.Name = "btReiniciar";
             this.btReiniciar.Size = new System.Drawing.Size(87, 31);
             this.btReiniciar.TabIndex = 7;

@@ -34,11 +34,7 @@ namespace PrimG9.Formularios
         {
             cp = new ClasePreguntas();
             ccba = new CarrerasCBA();
-            lblPreg.Text = cp.pregunta1[0];
-            rbA.Text = cp.pregunta1[1];
-            rbB.Text = cp.pregunta1[2];
-            rbC.Text = cp.pregunta1[3];
-            rbD.Text = cp.pregunta1[4];
+            CargarPreg(cp.pregunta1);
             preguntaActual++;
         }
         private void BtnSig_Click(object sender, EventArgs e)
@@ -47,60 +43,28 @@ namespace PrimG9.Formularios
             switch (preguntaActual)
             {
                 case 1:
-                    lblPreg.Text = cp.pregunta2[0];
-                    rbA.Text = cp.pregunta2[1];
-                    rbB.Text = cp.pregunta2[2];
-                    rbC.Text = cp.pregunta2[3];
-                    rbD.Text = cp.pregunta2[4];
+                    CargarPreg(cp.pregunta2);
                     break;
                 case 2:
-                    lblPreg.Text = cp.pregunta3[0];
-                    rbA.Text = cp.pregunta3[1];
-                    rbB.Text = cp.pregunta3[2];
-                    rbC.Text = cp.pregunta3[3];
-                    rbD.Text = cp.pregunta3[4];
+                    CargarPreg(cp.pregunta3);
                     break;
                 case 3:
-                    lblPreg.Text = cp.pregunta2[0];
-                    rbA.Text = cp.pregunta4[1];
-                    rbB.Text = cp.pregunta4[2];
-                    rbC.Text = cp.pregunta4[3];
-                    rbD.Text = cp.pregunta4[4];
+                    CargarPreg(cp.pregunta4);
                     break;
                 case 4:
-                    lblPreg.Text = cp.pregunta5[0];
-                    rbA.Text = cp.pregunta5[1];
-                    rbB.Text = cp.pregunta5[2];
-                    rbC.Text = cp.pregunta5[3];
-                    rbD.Text = cp.pregunta5[4];
+                    CargarPreg(cp.pregunta5);
                     break;
                 case 5:
-                    lblPreg.Text = cp.pregunta6[0];
-                    rbA.Text = cp.pregunta6[1];
-                    rbB.Text = cp.pregunta6[2];
-                    rbC.Text = cp.pregunta6[3];
-                    rbD.Text = cp.pregunta6[4];
+                    CargarPreg(cp.pregunta6);
                     break;
                 case 6:
-                    lblPreg.Text = cp.pregunta7[0];
-                    rbA.Text = cp.pregunta7[1];
-                    rbB.Text = cp.pregunta7[2];
-                    rbC.Text = cp.pregunta7[3];
-                    rbD.Text = cp.pregunta7[4];
+                    CargarPreg(cp.pregunta7);
                     break;
                 case 7:
-                    lblPreg.Text = cp.pregunta8[0];
-                    rbA.Text = cp.pregunta8[1];
-                    rbB.Text = cp.pregunta8[2];
-                    rbC.Text = cp.pregunta8[3];
-                    rbD.Text = cp.pregunta8[4];
+                    CargarPreg(cp.pregunta8);
                     break;
                 case 8:
-                    lblPreg.Text = cp.pregunta9[0];
-                    rbA.Text = cp.pregunta9[1];
-                    rbB.Text = cp.pregunta9[2];
-                    rbC.Text = cp.pregunta9[3];
-                    rbD.Text = cp.pregunta9[4];
+                    CargarPreg(cp.pregunta9);
                     break;
             }
             if (rbA.Checked == true)
@@ -125,6 +89,13 @@ namespace PrimG9.Formularios
             }
 
            
+        }
+        private void CargarPreg(string[] pregunta) {
+            lblPreg.Text = pregunta[0];
+            rbA.Text = pregunta[1];
+            rbB.Text = pregunta[2];
+            rbC.Text = pregunta[3];
+            rbD.Text = pregunta[4];
         }
         private void MostrarResultado()
         {

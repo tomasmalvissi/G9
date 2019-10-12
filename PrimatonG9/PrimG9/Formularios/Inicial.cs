@@ -18,10 +18,6 @@ namespace PrimG9
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            
-        }
 
         private void LblInicio_Click(object sender, EventArgs e)
         {
@@ -33,11 +29,6 @@ namespace PrimG9
         private void LbsSalir_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void Label1_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

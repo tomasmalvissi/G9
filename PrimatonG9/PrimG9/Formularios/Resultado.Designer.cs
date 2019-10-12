@@ -94,7 +94,6 @@
             this.lblNombre.Size = new System.Drawing.Size(52, 23);
             this.lblNombre.TabIndex = 4;
             this.lblNombre.Text = "label1";
-            this.lblNombre.Click += new System.EventHandler(this.lblNombre_Click);
             // 
             // pictureBox2
             // 

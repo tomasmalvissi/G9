@@ -61,10 +61,6 @@ namespace PrimG9.Formularios
             Application.Exit();
         }
 
-        private void lblNombre_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void button1_Click(object sender, EventArgs e)
         {

@@ -28,17 +28,12 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label1 = new System.Windows.Forms.Label();
-            this.lblInicio = new System.Windows.Forms.Label();
-            this.lbsSalir = new System.Windows.Forms.Label();
             this.eventLog1 = new System.Diagnostics.EventLog();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.btnIni = new System.Windows.Forms.Button();
+            this.btnSalir = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,58 +49,9 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "¿No sabes que estudiar?";
             // 
-            // lblInicio
-            // 
-            this.lblInicio.AutoSize = true;
-            this.lblInicio.BackColor = System.Drawing.Color.White;
-            this.lblInicio.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblInicio.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lblInicio.Location = new System.Drawing.Point(356, 253);
-            this.lblInicio.Name = "lblInicio";
-            this.lblInicio.Size = new System.Drawing.Size(146, 31);
-            this.lblInicio.TabIndex = 1;
-            this.lblInicio.Text = "Iniciar Test";
-            this.lblInicio.Click += new System.EventHandler(this.LblInicio_Click);
-            // 
-            // lbsSalir
-            // 
-            this.lbsSalir.AutoSize = true;
-            this.lbsSalir.BackColor = System.Drawing.Color.White;
-            this.lbsSalir.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbsSalir.ForeColor = System.Drawing.Color.SteelBlue;
-            this.lbsSalir.Image = global::PrimG9.Properties.Resources.Recuadro_Salir;
-            this.lbsSalir.Location = new System.Drawing.Point(764, 437);
-            this.lbsSalir.Name = "lbsSalir";
-            this.lbsSalir.Size = new System.Drawing.Size(53, 24);
-            this.lbsSalir.TabIndex = 4;
-            this.lbsSalir.Text = "&Salir";
-            this.lbsSalir.Click += new System.EventHandler(this.LbsSalir_Click);
-            // 
             // eventLog1
             // 
             this.eventLog1.SynchronizingObject = this;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.ErrorImage = global::PrimG9.Properties.Resources.Recuadro_Salir;
-            this.pictureBox3.Image = global::PrimG9.Properties.Resources.Recuadro_Salir;
-            this.pictureBox3.InitialImage = global::PrimG9.Properties.Resources.Recuadro_Salir;
-            this.pictureBox3.Location = new System.Drawing.Point(743, 426);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(92, 49);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::PrimG9.Properties.Resources.Recuadro_Salir;
-            this.pictureBox2.Location = new System.Drawing.Point(345, 239);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(169, 59);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -117,26 +63,42 @@
             this.pictureBox4.TabIndex = 7;
             this.pictureBox4.TabStop = false;
             // 
+            // btnIni
+            // 
+            this.btnIni.Location = new System.Drawing.Point(386, 218);
+            this.btnIni.Name = "btnIni";
+            this.btnIni.Size = new System.Drawing.Size(75, 23);
+            this.btnIni.TabIndex = 8;
+            this.btnIni.Text = "Iniciar Test";
+            this.btnIni.UseVisualStyleBackColor = true;
+            this.btnIni.Click += new System.EventHandler(this.btnIni_Click);
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(769, 449);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(75, 23);
+            this.btnSalir.TabIndex = 9;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(856, 484);
+            this.Controls.Add(this.btnSalir);
+            this.Controls.Add(this.btnIni);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.lbsSalir);
-            this.Controls.Add(this.lblInicio);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -146,12 +108,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label lblInicio;
-        private System.Windows.Forms.Label lbsSalir;
         private System.Diagnostics.EventLog eventLog1;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnIni;
     }
 }
 

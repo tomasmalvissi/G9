@@ -18,15 +18,14 @@ namespace PrimG9
             InitializeComponent();
         }
 
-
-        private void LblInicio_Click(object sender, EventArgs e)
+        private void btnIni_Click(object sender, EventArgs e)
         {
             this.Hide();
             Introduccion intr = new Introduccion();
             intr.Show();
         }
 
-        private void LbsSalir_Click(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();
         }

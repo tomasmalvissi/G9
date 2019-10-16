@@ -62,12 +62,7 @@ namespace PrimG9.Formularios
         }
 
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-        private void btReiniciar_Click(object sender, EventArgs e)
+        private void btnReini_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form1 intr = new Form1();

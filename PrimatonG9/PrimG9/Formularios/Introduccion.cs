@@ -20,12 +20,12 @@ namespace PrimG9.Formularios
             user = new Usuario();
         }
 
-        private void BtnEmp_Click(object sender, EventArgs e)
+        private void btnEmpezar_Click(object sender, EventArgs e)
         {
             user.Agregar(txtUser.Text);
             this.Hide();
             Preguntas preg = new Preguntas(user);
-            preg.Show();            
+            preg.Show();
         }
     }
 }

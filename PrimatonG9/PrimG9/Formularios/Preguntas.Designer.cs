@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Preguntas));
             this.rbA = new System.Windows.Forms.RadioButton();
             this.rbB = new System.Windows.Forms.RadioButton();
             this.rbC = new System.Windows.Forms.RadioButton();
@@ -42,7 +41,7 @@
             this.rbA.AutoSize = true;
             this.rbA.BackColor = System.Drawing.Color.Transparent;
             this.rbA.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbA.ForeColor = System.Drawing.Color.Black;
+            this.rbA.ForeColor = System.Drawing.Color.White;
             this.rbA.Location = new System.Drawing.Point(288, 155);
             this.rbA.Name = "rbA";
             this.rbA.Size = new System.Drawing.Size(99, 20);
@@ -56,7 +55,7 @@
             this.rbB.AutoSize = true;
             this.rbB.BackColor = System.Drawing.Color.Transparent;
             this.rbB.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbB.ForeColor = System.Drawing.Color.Black;
+            this.rbB.ForeColor = System.Drawing.Color.White;
             this.rbB.Location = new System.Drawing.Point(288, 181);
             this.rbB.Name = "rbB";
             this.rbB.Size = new System.Drawing.Size(99, 20);
@@ -70,7 +69,7 @@
             this.rbC.AutoSize = true;
             this.rbC.BackColor = System.Drawing.Color.Transparent;
             this.rbC.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbC.ForeColor = System.Drawing.Color.Black;
+            this.rbC.ForeColor = System.Drawing.Color.White;
             this.rbC.Location = new System.Drawing.Point(288, 207);
             this.rbC.Name = "rbC";
             this.rbC.Size = new System.Drawing.Size(99, 20);
@@ -84,7 +83,7 @@
             this.rbD.AutoSize = true;
             this.rbD.BackColor = System.Drawing.Color.Transparent;
             this.rbD.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rbD.ForeColor = System.Drawing.Color.Black;
+            this.rbD.ForeColor = System.Drawing.Color.White;
             this.rbD.Location = new System.Drawing.Point(288, 233);
             this.rbD.Name = "rbD";
             this.rbD.Size = new System.Drawing.Size(99, 20);
@@ -98,7 +97,7 @@
             this.lblPreg.AutoSize = true;
             this.lblPreg.BackColor = System.Drawing.Color.Transparent;
             this.lblPreg.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPreg.ForeColor = System.Drawing.Color.Black;
+            this.lblPreg.ForeColor = System.Drawing.Color.White;
             this.lblPreg.Location = new System.Drawing.Point(34, 21);
             this.lblPreg.Name = "lblPreg";
             this.lblPreg.Size = new System.Drawing.Size(64, 23);
@@ -122,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(655, 381);
             this.Controls.Add(this.btnSig);
             this.Controls.Add(this.lblPreg);

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Xml.Linq;
 
 namespace PrimG9.Formularios
 {
@@ -15,6 +16,11 @@ namespace PrimG9.Formularios
         public Registro()
         {
             InitializeComponent();
+        }
+
+        private void btnSal_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

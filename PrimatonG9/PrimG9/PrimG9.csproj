@@ -67,6 +67,12 @@
     <Compile Include="Formularios\Preguntas.Designer.cs">
       <DependentUpon>Preguntas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formularios\Registro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Registro.Designer.cs">
+      <DependentUpon>Registro.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formularios\Resultado.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Preguntas.resx">
       <DependentUpon>Preguntas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Registro.resx">
+      <DependentUpon>Registro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formularios\Resultado.resx">
       <DependentUpon>Resultado.cs</DependentUpon>
@@ -111,25 +120,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\a.gif.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Sin-título-1.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Recuadro-Salir.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Frase.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Gif-logo-2.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Gif-Logo.gif" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Gif-logo-3.gif" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

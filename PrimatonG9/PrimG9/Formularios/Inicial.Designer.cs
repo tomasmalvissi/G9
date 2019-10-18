@@ -29,11 +29,10 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.eventLog1 = new System.Diagnostics.EventLog();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.btnIni = new System.Windows.Forms.Button();
             this.btnSalir = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
+            this.btnReg = new System.Windows.Forms.Button();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,20 +47,6 @@
             this.label1.Size = new System.Drawing.Size(561, 55);
             this.label1.TabIndex = 0;
             this.label1.Text = "¿No sabes que estudiar?";
-            // 
-            // eventLog1
-            // 
-            this.eventLog1.SynchronizingObject = this;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::PrimG9.Properties.Resources.Gif_logo_3;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 365);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(129, 119);
-            this.pictureBox4.TabIndex = 7;
-            this.pictureBox4.TabStop = false;
             // 
             // btnIni
             // 
@@ -83,6 +68,26 @@
             this.btnSalir.UseVisualStyleBackColor = true;
             this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
+            // btnReg
+            // 
+            this.btnReg.Location = new System.Drawing.Point(135, 449);
+            this.btnReg.Name = "btnReg";
+            this.btnReg.Size = new System.Drawing.Size(75, 23);
+            this.btnReg.TabIndex = 10;
+            this.btnReg.Text = "Registros";
+            this.btnReg.UseVisualStyleBackColor = true;
+            this.btnReg.Click += new System.EventHandler(this.btnReg_Click);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox4.Image = global::PrimG9.Properties.Resources.Gif_logo_3;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 365);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(129, 119);
+            this.pictureBox4.TabIndex = 7;
+            this.pictureBox4.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -90,6 +95,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(856, 484);
+            this.Controls.Add(this.btnReg);
             this.Controls.Add(this.btnSalir);
             this.Controls.Add(this.btnIni);
             this.Controls.Add(this.pictureBox4);
@@ -97,8 +103,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
+            this.Text = "Yo Estudio Cordoba ";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -108,10 +113,10 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Diagnostics.EventLog eventLog1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button btnIni;
+        private System.Windows.Forms.Button btnReg;
     }
 }
 

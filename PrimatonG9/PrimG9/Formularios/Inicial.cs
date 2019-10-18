@@ -25,6 +25,12 @@ namespace PrimG9
             intr.Show();
         }
 
+        private void btnReg_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Registro reg = new Registro();
+            reg.Show();
+        }
         private void btnSalir_Click(object sender, EventArgs e)
         {
             Close();

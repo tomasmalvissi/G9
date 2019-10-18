@@ -33,7 +33,7 @@
             this.rbC = new System.Windows.Forms.RadioButton();
             this.rbD = new System.Windows.Forms.RadioButton();
             this.lblPreg = new System.Windows.Forms.Label();
-            this.btnSig = new System.Windows.Forms.Button();
+            this.btnSiguiente = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // rbA
@@ -42,7 +42,7 @@
             this.rbA.BackColor = System.Drawing.Color.Transparent;
             this.rbA.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbA.ForeColor = System.Drawing.Color.White;
-            this.rbA.Location = new System.Drawing.Point(288, 155);
+            this.rbA.Location = new System.Drawing.Point(251, 150);
             this.rbA.Name = "rbA";
             this.rbA.Size = new System.Drawing.Size(99, 20);
             this.rbA.TabIndex = 0;
@@ -56,7 +56,7 @@
             this.rbB.BackColor = System.Drawing.Color.Transparent;
             this.rbB.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbB.ForeColor = System.Drawing.Color.White;
-            this.rbB.Location = new System.Drawing.Point(288, 181);
+            this.rbB.Location = new System.Drawing.Point(251, 176);
             this.rbB.Name = "rbB";
             this.rbB.Size = new System.Drawing.Size(99, 20);
             this.rbB.TabIndex = 1;
@@ -70,7 +70,7 @@
             this.rbC.BackColor = System.Drawing.Color.Transparent;
             this.rbC.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbC.ForeColor = System.Drawing.Color.White;
-            this.rbC.Location = new System.Drawing.Point(288, 207);
+            this.rbC.Location = new System.Drawing.Point(251, 202);
             this.rbC.Name = "rbC";
             this.rbC.Size = new System.Drawing.Size(99, 20);
             this.rbC.TabIndex = 2;
@@ -84,7 +84,7 @@
             this.rbD.BackColor = System.Drawing.Color.Transparent;
             this.rbD.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.rbD.ForeColor = System.Drawing.Color.White;
-            this.rbD.Location = new System.Drawing.Point(288, 233);
+            this.rbD.Location = new System.Drawing.Point(251, 228);
             this.rbD.Name = "rbD";
             this.rbD.Size = new System.Drawing.Size(99, 20);
             this.rbD.TabIndex = 3;
@@ -104,18 +104,14 @@
             this.lblPreg.TabIndex = 4;
             this.lblPreg.Text = "label1";
             // 
-            // btnSig
+            // btnSiguiente
             // 
-            this.btnSig.BackColor = System.Drawing.Color.SkyBlue;
-            this.btnSig.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSig.ForeColor = System.Drawing.Color.Black;
-            this.btnSig.Location = new System.Drawing.Point(543, 325);
-            this.btnSig.Name = "btnSig";
-            this.btnSig.Size = new System.Drawing.Size(84, 32);
-            this.btnSig.TabIndex = 5;
-            this.btnSig.Text = "Siguiente";
-            this.btnSig.UseVisualStyleBackColor = false;
-            this.btnSig.Click += new System.EventHandler(this.BtnSig_Click);
+            this.btnSiguiente.Location = new System.Drawing.Point(568, 346);
+            this.btnSiguiente.Name = "btnSiguiente";
+            this.btnSiguiente.Size = new System.Drawing.Size(75, 23);
+            this.btnSiguiente.TabIndex = 6;
+            this.btnSiguiente.Text = "Siguiente";
+            this.btnSiguiente.UseVisualStyleBackColor = true;
             // 
             // Preguntas
             // 
@@ -123,7 +119,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.ClientSize = new System.Drawing.Size(655, 381);
-            this.Controls.Add(this.btnSig);
+            this.Controls.Add(this.btnSiguiente);
             this.Controls.Add(this.lblPreg);
             this.Controls.Add(this.rbD);
             this.Controls.Add(this.rbC);
@@ -146,6 +142,6 @@
         private System.Windows.Forms.RadioButton rbC;
         private System.Windows.Forms.RadioButton rbD;
         private System.Windows.Forms.Label lblPreg;
-        private System.Windows.Forms.Button btnSig;
+        private System.Windows.Forms.Button btnSiguiente;
     }
 }

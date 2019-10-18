@@ -37,7 +37,7 @@ namespace PrimG9.Formularios
             CargarPreg(cp.pregunta1);
             preguntaActual++;
         }
-        private void BtnSig_Click(object sender, EventArgs e)
+        private void BtnSiguiente_Click(object sender, EventArgs e)
         {
             preguntaActual++;
             switch (preguntaActual)
